@@ -1,7 +1,20 @@
+
+## Under Development
+Note that this repo is still under early development; we'll remove this note once some initial testing is complete.
+
+
 # CESM2-ARISE
+This repo contains example notebooks and the Intake-ESM catalog for using data from the CESM2 ARISE simulations hosted on AWS's OpenData program.
 
-Solar climate intervention using stratospheric aerosol injection is a proposed method of reducing global mean temperatures in order to avoid the worst consequences of climate change. Assessing Responses and Impacts of Solar climate intervention on the Earth system with Stratospheric Aerosol Injection (ARISE-SAI-1.5) is a set of simulations carried out with the Community Earth System Model, version 2 with the Whole Atmosphere Community Climate Model, version 6 (CESM2(WACCM6)) that aims at simulating a plausible deployment of solar climate intervention of stratospheric aerosol injection to enable community assessment of responses of the Earth system. In this set of simulations stratospheric aerosol injection is introduced at ~ 21 km in simulated year 2035. The simulations utilize the middle-of-the-road SSP2-4.5 emission scenario, and keep global mean surface air temperature near 1.5°C above the pre-industrial value. Sulfur dioxide injections in the ARISE-SAI-1.5 simulations are placed at four injection locations (15°S, 15°N, 30°S, 30°N) into one grid box at 180° longitude, and midpoint altitude of 21.6 km. The injection amount at each latitude is specified annually by a “controller” algorithm.
+For additional information on the ARISE-SAI project itself, please see:
+https://www.cesm.ucar.edu/projects/community-projects/ARISE-SAI/
 
-There are 10 ensemble members of “reference” or SSP2-4.5 simulations (without climate intervention) with CESM2(WACCM6) that accompany the ARISE-SAI-1.5 simulations. 
+## Data description
+At the moment, we have the ARISE-SAI-1.5 data available, with additional datasets being added soon.  This set has 10 ensemble members.
 
-More information can be found here: https://www.cesm.ucar.edu/projects/community-projects/ARISE-SAI/
+
+
+## How to use this data
+This data can be used from anywhere, including via AWS cloud instances, which offer the fastest access speeds since they're co-located with the data itself.  Instructions for launching JupyterHub on AWS will be coming shortly.  The example notebooks, also coming soon, show how to use this data from Jupyter / Python, and should work on any platform with a compatible conda environment.  If you need to create one, we'll have both a minimalist environment YAML file, and a link to the full (and recommended) EASE environment YAML added here shortly.
+
+

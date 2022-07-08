@@ -1,0 +1,54 @@
+{
+  "catalog_file": "cesm2-arise-sai-1.5",
+  "attributes": [
+    {
+      "column_name": "path",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "variable",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "experiment",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "member_id",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "long_name",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "units",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "vertical_levels",
+      "vocabulary": ""
+    },
+    {
+      "column_name": "frequency",
+      "vocabulary": ""
+    }
+  ],
+  "assets": {
+    "column_name": "path",
+    "format": "reference"
+  },
+  "aggregation_control": {
+    "variable_column_name": "variable",
+    "groupby_attrs": [
+      "frequency",
+      "experiment",
+      "member_id"
+    ],
+    "aggregations": []
+  },
+  "esmcat_version": "0.0.1",
+  "id": null,
+  "description": null,
+  "last_updated": "2022-07-03T04:09:32+00:00"
+}
